@@ -1,6 +1,6 @@
 import { useTranslation } from 'react-i18next'
 import { useSimulationStore } from '@/store'
-import { formatTime, formatSpeed, formatProgress } from '@/utils'
+import { formatSpeed, formatProgress } from '@/utils'
 import styles from './DetailsPanel.module.css'
 
 export function DetailsPanel() {

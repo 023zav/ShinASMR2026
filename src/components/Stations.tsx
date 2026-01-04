@@ -12,7 +12,7 @@ interface StationMarkerProps {
   onClick: () => void
 }
 
-function StationMarker({ id, name, position, isSelected, onClick }: StationMarkerProps) {
+function StationMarker({ name, position, isSelected, onClick }: StationMarkerProps) {
   return (
     <group position={position}>
       {/* Platform base */}

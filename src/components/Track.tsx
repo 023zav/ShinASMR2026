@@ -1,5 +1,6 @@
 import { useMemo } from 'react'
 import * as THREE from 'three'
+import { Line } from '@react-three/drei'
 import { useSimulationStore } from '@/store'
 import { latLonToScene } from '@/utils/coordinates'
 
@@ -19,14 +20,12 @@ export function Track() {
       // Create tube geometry for track bed
       const tubeGeometry = new THREE.TubeGeometry(curve, 100, 0.12, 8, false)
       
-      // Create line geometry for rails on top
-      const railPoints = curve.getPoints(100)
-      const railGeometry = new THREE.BufferGeometry().setFromPoints(railPoints)
+      // Create points array for rail line
+      const railPoints = curve.getPoints(100).map(p => [p.x, p.y + 0.05, p.z] as [number, number, number])
       
       return {
         line,
         tubeGeometry,
-        railGeometry,
         railPoints
       }
     })
@@ -34,7 +33,7 @@ export function Track() {
   
   return (
     <group>
-      {trackMeshes.map(({ line, tubeGeometry, railGeometry }) => (
+      {trackMeshes.map(({ line, tubeGeometry, railPoints }) => (
         <group key={line.id}>
           {/* Track bed */}
           <mesh geometry={tubeGeometry} castShadow receiveShadow>
@@ -46,9 +45,11 @@ export function Track() {
           </mesh>
           
           {/* Rail line on top */}
-          <line geometry={railGeometry}>
-            <lineBasicMaterial color="#888888" linewidth={2} />
-          </line>
+          <Line
+            points={railPoints}
+            color="#888888"
+            lineWidth={2}
+          />
         </group>
       ))}
     </group>

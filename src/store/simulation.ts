@@ -208,12 +208,6 @@ function calculateTrainPositions(
   return positions
 }
 
-// Get current time of day in minutes since midnight
-function getCurrentTimeOfDay(): number {
-  const now = new Date()
-  return now.getHours() * 60 + now.getMinutes()
-}
-
 export const useSimulationStore = create<SimulationState>((set, get) => ({
   // Initial state - start at 6:00 AM for interesting train activity
   simulationTime: 360, // 6:00 AM
