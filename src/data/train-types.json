@@ -1,0 +1,44 @@
+[
+  {
+    "id": "express-a",
+    "name_en": "Express Type A",
+    "name_ja": "特急A型",
+    "max_speed_kmh": 285,
+    "length_m": 404,
+    "cars": 16,
+    "livery_key": "white-blue",
+    "facts_en": [
+      "The fastest service on the Tokaido line",
+      "Connects Tokyo and Osaka in about 2 hours 15 minutes",
+      "Introduced in 1999 with aerodynamic nose design"
+    ]
+  },
+  {
+    "id": "express-b",
+    "name_en": "Express Type B",
+    "name_ja": "特急B型",
+    "max_speed_kmh": 270,
+    "length_m": 400,
+    "cars": 16,
+    "livery_key": "white-orange",
+    "facts_en": [
+      "A workhorse of the Tokaido Shinkansen",
+      "Makes more stops than Express Type A",
+      "Popular with business travelers"
+    ]
+  },
+  {
+    "id": "local-c",
+    "name_en": "Local Type C",
+    "name_ja": "各停C型",
+    "max_speed_kmh": 220,
+    "length_m": 300,
+    "cars": 12,
+    "livery_key": "white-green",
+    "facts_en": [
+      "Stops at all stations",
+      "Ideal for shorter journeys",
+      "Often less crowded than express services"
+    ]
+  }
+]
