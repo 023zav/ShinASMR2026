@@ -1,0 +1,118 @@
+[
+  {
+    "id": "ex-a-001",
+    "line_id": "tokaido",
+    "train_type_id": "express-a",
+    "name_en": "Express A #1",
+    "direction": "down",
+    "stops": [
+      { "station_id": "tokyo", "arrival": "06:00", "departure": "06:00" },
+      { "station_id": "shinagawa", "arrival": "06:07", "departure": "06:08" },
+      { "station_id": "nagoya", "arrival": "07:40", "departure": "07:42" },
+      { "station_id": "kyoto", "arrival": "08:15", "departure": "08:17" },
+      { "station_id": "shin-osaka", "arrival": "08:30", "departure": "08:30" }
+    ]
+  },
+  {
+    "id": "ex-a-002",
+    "line_id": "tokaido",
+    "train_type_id": "express-a",
+    "name_en": "Express A #2",
+    "direction": "up",
+    "stops": [
+      { "station_id": "shin-osaka", "arrival": "07:00", "departure": "07:00" },
+      { "station_id": "kyoto", "arrival": "07:13", "departure": "07:15" },
+      { "station_id": "nagoya", "arrival": "07:48", "departure": "07:50" },
+      { "station_id": "shinagawa", "arrival": "09:22", "departure": "09:23" },
+      { "station_id": "tokyo", "arrival": "09:30", "departure": "09:30" }
+    ]
+  },
+  {
+    "id": "ex-b-001",
+    "line_id": "tokaido",
+    "train_type_id": "express-b",
+    "name_en": "Express B #1",
+    "direction": "down",
+    "stops": [
+      { "station_id": "tokyo", "arrival": "06:30", "departure": "06:30" },
+      { "station_id": "shinagawa", "arrival": "06:37", "departure": "06:39" },
+      { "station_id": "shin-yokohama", "arrival": "06:55", "departure": "06:57" },
+      { "station_id": "nagoya", "arrival": "08:25", "departure": "08:28" },
+      { "station_id": "kyoto", "arrival": "09:05", "departure": "09:07" },
+      { "station_id": "shin-osaka", "arrival": "09:22", "departure": "09:22" }
+    ]
+  },
+  {
+    "id": "ex-b-002",
+    "line_id": "tokaido",
+    "train_type_id": "express-b",
+    "name_en": "Express B #2",
+    "direction": "up",
+    "stops": [
+      { "station_id": "shin-osaka", "arrival": "08:00", "departure": "08:00" },
+      { "station_id": "kyoto", "arrival": "08:15", "departure": "08:17" },
+      { "station_id": "nagoya", "arrival": "08:54", "departure": "08:57" },
+      { "station_id": "shin-yokohama", "arrival": "10:25", "departure": "10:27" },
+      { "station_id": "shinagawa", "arrival": "10:43", "departure": "10:45" },
+      { "station_id": "tokyo", "arrival": "10:52", "departure": "10:52" }
+    ]
+  },
+  {
+    "id": "local-001",
+    "line_id": "tokaido",
+    "train_type_id": "local-c",
+    "name_en": "Local #1",
+    "direction": "down",
+    "stops": [
+      { "station_id": "tokyo", "arrival": "07:00", "departure": "07:00" },
+      { "station_id": "shinagawa", "arrival": "07:10", "departure": "07:12" },
+      { "station_id": "shin-yokohama", "arrival": "07:30", "departure": "07:33" },
+      { "station_id": "nagoya", "arrival": "09:45", "departure": "09:50" },
+      { "station_id": "kyoto", "arrival": "10:40", "departure": "10:45" },
+      { "station_id": "shin-osaka", "arrival": "11:05", "departure": "11:05" }
+    ]
+  },
+  {
+    "id": "local-002",
+    "line_id": "tokaido",
+    "train_type_id": "local-c",
+    "name_en": "Local #2",
+    "direction": "up",
+    "stops": [
+      { "station_id": "shin-osaka", "arrival": "09:00", "departure": "09:00" },
+      { "station_id": "kyoto", "arrival": "09:20", "departure": "09:25" },
+      { "station_id": "nagoya", "arrival": "10:15", "departure": "10:20" },
+      { "station_id": "shin-yokohama", "arrival": "12:32", "departure": "12:35" },
+      { "station_id": "shinagawa", "arrival": "12:53", "departure": "12:55" },
+      { "station_id": "tokyo", "arrival": "13:05", "departure": "13:05" }
+    ]
+  },
+  {
+    "id": "ex-a-003",
+    "line_id": "tokaido",
+    "train_type_id": "express-a",
+    "name_en": "Express A #3",
+    "direction": "down",
+    "stops": [
+      { "station_id": "tokyo", "arrival": "09:00", "departure": "09:00" },
+      { "station_id": "shinagawa", "arrival": "09:07", "departure": "09:08" },
+      { "station_id": "nagoya", "arrival": "10:40", "departure": "10:42" },
+      { "station_id": "kyoto", "arrival": "11:15", "departure": "11:17" },
+      { "station_id": "shin-osaka", "arrival": "11:30", "departure": "11:30" }
+    ]
+  },
+  {
+    "id": "ex-a-004",
+    "line_id": "tokaido",
+    "train_type_id": "express-a",
+    "name_en": "Express A #4",
+    "direction": "up",
+    "stops": [
+      { "station_id": "shin-osaka", "arrival": "12:00", "departure": "12:00" },
+      { "station_id": "kyoto", "arrival": "12:13", "departure": "12:15" },
+      { "station_id": "nagoya", "arrival": "12:48", "departure": "12:50" },
+      { "station_id": "shinagawa", "arrival": "14:22", "departure": "14:23" },
+      { "station_id": "tokyo", "arrival": "14:30", "departure": "14:30" }
+    ]
+  }
+]

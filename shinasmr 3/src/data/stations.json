@@ -1,0 +1,80 @@
+[
+  {
+    "id": "tokyo",
+    "name_en": "Tokyo",
+    "name_ja": "東京",
+    "lat": 35.6812,
+    "lon": 139.7671,
+    "line_ids": ["tokaido"],
+    "metadata": {
+      "opened_year": 1964,
+      "platforms": 5,
+      "daily_passengers": 450000
+    }
+  },
+  {
+    "id": "shinagawa",
+    "name_en": "Shinagawa",
+    "name_ja": "品川",
+    "lat": 35.6284,
+    "lon": 139.7387,
+    "line_ids": ["tokaido"],
+    "metadata": {
+      "opened_year": 2003,
+      "platforms": 2,
+      "daily_passengers": 95000
+    }
+  },
+  {
+    "id": "shin-yokohama",
+    "name_en": "Shin-Yokohama",
+    "name_ja": "新横浜",
+    "lat": 35.5067,
+    "lon": 139.6179,
+    "line_ids": ["tokaido"],
+    "metadata": {
+      "opened_year": 1964,
+      "platforms": 2,
+      "daily_passengers": 70000
+    }
+  },
+  {
+    "id": "nagoya",
+    "name_en": "Nagoya",
+    "name_ja": "名古屋",
+    "lat": 35.1709,
+    "lon": 136.8815,
+    "line_ids": ["tokaido"],
+    "metadata": {
+      "opened_year": 1964,
+      "platforms": 4,
+      "daily_passengers": 175000
+    }
+  },
+  {
+    "id": "kyoto",
+    "name_en": "Kyoto",
+    "name_ja": "京都",
+    "lat": 34.9858,
+    "lon": 135.7588,
+    "line_ids": ["tokaido"],
+    "metadata": {
+      "opened_year": 1964,
+      "platforms": 2,
+      "daily_passengers": 72000
+    }
+  },
+  {
+    "id": "shin-osaka",
+    "name_en": "Shin-Osaka",
+    "name_ja": "新大阪",
+    "lat": 34.7337,
+    "lon": 135.5000,
+    "line_ids": ["tokaido"],
+    "metadata": {
+      "opened_year": 1964,
+      "platforms": 4,
+      "daily_passengers": 235000
+    }
+  }
+]
